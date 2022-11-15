@@ -7,7 +7,7 @@ public class Inputtest {
 		int c;
 		try
 		{
-			InputStream is = new LowerCaseInputStream(new BufferedInputStream(new FileInputStream("C:\\Users\\Arbaaz\\eclipse-workspace\\Programs\\Decorator\\src\\Deco\\file1.txt")));
+			InputStream is = new LowerCaseInputStream(new BufferedInputStream(new FileInputStream("C:\\Users\\NAME\\eclipse-workspace\\Programs\\Decorator\\src\\Deco\\file1.txt")));
 			while((c=is.read())>=0)
 			{
 				System.out.print((char)c);
